@@ -1,0 +1,280 @@
+body{
+	  font-family: sans-serif;
+	  line-height: 1.5em;
+	  margin: 0;
+	  padding: 0;
+}
+img{
+  border: none;
+  max-width: 100%;
+}
+.container{
+	width: 90%;
+	margin:auto;
+}
+.title{
+
+	font-size: 32px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 30px 5px;
+    font-weight: bold;
+}
+.content{
+	font-size: 14px;
+}
+
+.subtitle1{
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #fff;
+    line-height: 1.5em;
+}
+
+.subtitle2{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.5em;
+}
+
+h2{
+	font-size: 25px;
+    text-transform: uppercase;
+   
+}
+a{
+	color: #fff;
+    text-decoration: none;
+}
+.reset{
+	clear: both;
+}
+.training-course{
+	background-color: #f2f2f2;
+   /* padding: 50px;*/
+}
+
+.training-box{
+	width: 30%;
+    text-align: center;
+    background: #fff;
+    margin: 20px 15px;
+    padding: 20px 5px;
+    display: inline-block;
+    box-shadow: 6px 5px 2px 3px #e1e1e1;
+}
+
+.circle{
+    background: #2d54a1;
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+
+.circle img{
+  margin-top: 15px;
+}
+.button{
+	margin-top: 15px;
+}
+
+.readmore  {
+	display: inline-block;
+    padding: 10px 15px;
+    text-transform: none;
+    background: #ffa530;
+}
+
+
+.readmore:hover{
+	background: #2f559e;
+}
+/*---------------------End of Training Course Portion ----------*/
+.trained-on{
+	 /* Location of the image */
+  background-image: url(../images/banner-pattern.jpg);
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+
+ /* height: 300px;*/
+}
+
+.circle-box{
+
+	width: 24%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.circle-outer{
+	border-radius: 100%;
+    padding: 5px;
+    display: inline-block;
+    background: #2d54a100;
+    border: 3px solid #2d54a1;
+}
+
+
+
+.circle-box h4{
+	color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.why-our-training{
+  background-color: #f2f2f2; 
+  padding: 50px 0px;
+}
+
+.our-training-box{
+  margin-top: 30px;
+  margin-right: 10px;
+  width: 32%;
+  display: inline-block;
+}
+
+.inner-training-box{
+    width: 100%;
+    background: #ffffff;
+   
+}
+
+.why-our-training .img-box {
+    
+    background: #fff;
+    width: 35%;
+    text-align: center;
+    display: inline-block;
+}
+
+
+ .content-box-new{
+    display: inline-block;
+    width: 59%;
+    background: #ffbe1a;
+    color: #fff;
+    padding: 10px 0px 20px 21px;
+    
+}
+
+.why-our-training .content-box-new1 {
+    display: inline-block;
+    width: 59%;
+    background: #0c3957;
+    color: #fff;
+    padding: 10px 0px 20px 21px;
+}
+
+.footer{
+    margin: 50px 0px;
+}
+
+.footer-box{
+    width: 23%;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+}
+.footer-title{
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+.footer-content{
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.social-link{
+    margin-top: 25px;
+}
+.footer-box ul{
+  padding: 0;
+}
+.footer-box ul li a{
+  color: #878787;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.footer-header {
+    color: #1c2c4a;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.img1{
+  margin: 15px 0px;
+  width: 100%;
+}
+.img1 img{
+  margin-right: 10px;
+  width: 10%;
+  display: inline-block;
+}
+
+
+.span-setting{
+  width: 86%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+}
+.social-link a{
+  color: #878787;
+  font-size: 18px;
+  margin-right: 18px;
+}
+
+.social-link a:hover{
+  color: #000;
+}
+
+.sub-footer{
+  background: #141735;
+  padding: 20px 0px;
+  color: #fff;
+}
+
+.sub-footer-box{
+    width: 49%;
+    display: inline-block;
+}
+
+
+.blue{
+  background: #040446;
+}
+.social-color-red{
+  color: red;
+}
+
+.footer a{
+  color: #000;
+}
